@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:id="@+id/LinearLayout"
+    >
+    
+	<TextView  
+	android:id="@+id/onetextview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="时间"
+     android:textSize="20sp"
+     android:layout_margin="10dp"
+    />
+	
+    <TextView  
+    android:id="@+id/twotextview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="标题"
+     android:textSize="20sp"
+     android:layout_margin="10dp"
+    />
+    
+      <TextView  
+    android:id="@+id/threetextview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="内容"
+     android:textSize="20sp"
+     android:layout_margin="10dp"
+    />
+      
+    <Button 
+    android:id="@+id/onebutton"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="设置"
+     android:textSize="20sp"
+     android:layout_margin="10dp"
+    /> 
+   
+</LinearLayout>
